@@ -1,0 +1,19 @@
+dataset_dir: './dataset/image'
+model_path: './result/model_checkpoint/poi_view'
+
+# train options
+seed: 3407
+batch_size: 128
+image_size: 512   # pytorch default input image size 224*224
+start_epoch: 0
+epochs: 150
+pretrain: False 
+
+# model options
+resnet: 'resnet18'   # res-18 / res-50
+projection_dim: 64   # SimCLR projection head output feature dim
+
+# loss options
+optimizer: 'Adam'
+temperature: 0.5   # InfoNCE loss
+
