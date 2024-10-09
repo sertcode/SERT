@@ -13,7 +13,7 @@ Here is the open-source code for *SERT*. Below is a detailed introduction to thi
 The ***./sert_framework/data*** folder contains the flow datasets required for training SERT. The dataset includes data from three cities, with each city containing flow data for two types of transportation: Taxi and Bike.
 Please extract the compressed file before use.
 
-## Running the code
+## Running
 
 You need to first run the code in the ***./satellite_encoder*** folder to extract auxiliary features for the subsequent matching computations.  
 
